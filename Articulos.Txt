@@ -1,0 +1,18 @@
+A000012 Yerba Mate 1kg                 0120 ALM01 0004850.50
+B000003 Gaseosa Cola 2.25L             0300 BEB01 0002900.00
+L000007 Leche Entera 1L                0080 LAC01 0001250.75
+A000001 Arroz Largo Fino 1kg           0045 ALM01 0001800.00
+F000002 Manzana Roja kg                0060 FRU01 0002100.25
+B000001 Agua Mineral 1.5L              0500 BEB01 0000950.00
+A000005 Fideos Tirabuzon 500g          0210 ALM01 0001100.00
+L000001 Yogur Natural 190g             0090 LAC01 0000780.90
+Z000001 Articulo Rubro Inexistente     0005 ZZZ99 0000010.00
+F000001 Banana kg                      0075 FRU01 0001900.00
+A000002 Aceite Girasol 900ml           0033 ALM01 0003200.00
+B000002 Cerveza Rubia 1L               0150 BEB01 0002300.00
+M000001 Lavandina 1L                   0070 LIM01 0001450.00
+M000002 Detergente 750ml               0065 LIM01 0001980.50
+A000003 Azucar 1kg                     0099 ALM01 0001300.00
+L000002 Queso Cremoso kg               0025 LAC01 0009800.00
+F000003 Tomate Perita kg               0040 FRU01 0003500.00
+A000004 Harina 000 1kg                 0130 ALM01 0000950.00

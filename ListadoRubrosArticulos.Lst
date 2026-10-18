@@ -1,0 +1,59 @@
+Fecha: 17-10-2026
+
+                 Listado por Rubros y Artículos
+-----------------------------------------------------------------
+Cód.Rubro: ALM01     Nombre Rubro: Almacen                       
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+   A000002        Aceite Girasol 900ml             $    3200.00
+   A000001        Arroz Largo Fino 1kg             $    1800.00
+   A000003        Azucar 1kg                       $    1300.00
+   A000005        Fideos Tirabuzon 500g            $    1100.00
+   A000004        Harina 000 1kg                   $     950.00
+   A000012        Yerba Mate 1kg                   $    4850.50
+
+   Cantidad de items:    6
+-----------------------------------------------------------------
+Cód.Rubro: BEB01     Nombre Rubro: Bebidas                       
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+   B000001        Agua Mineral 1.5L                $     950.00
+   B000002        Cerveza Rubia 1L                 $    2300.00
+   B000003        Gaseosa Cola 2.25L               $    2900.00
+
+   Cantidad de items:    3
+-----------------------------------------------------------------
+Cód.Rubro: FRU01     Nombre Rubro: Frutas y Verduras             
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+   F000001        Banana kg                        $    1900.00
+   F000002        Manzana Roja kg                  $    2100.25
+   F000003        Tomate Perita kg                 $    3500.00
+
+   Cantidad de items:    3
+-----------------------------------------------------------------
+Cód.Rubro: LAC01     Nombre Rubro: Lacteos                       
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+   L000007        Leche Entera 1L                  $    1250.75
+   L000002        Queso Cremoso kg                 $    9800.00
+   L000001        Yogur Natural 190g               $     780.90
+
+   Cantidad de items:    3
+-----------------------------------------------------------------
+Cód.Rubro: LIM01     Nombre Rubro: Limpieza                      
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+   M000002        Detergente 750ml                 $    1980.50
+   M000001        Lavandina 1L                     $    1450.00
+
+   Cantidad de items:    2
+-----------------------------------------------------------------
+Cód.Rubro: PAN01     Nombre Rubro: Panaderia                     
+
+   Cód.Artículo   Descripción                         Pre.Unit.
+
+   Cantidad de items:    0
+-----------------------------------------------------------------
+
+Código de Rubro con mayor cantidad de items: ALM01

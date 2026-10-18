@@ -1,0 +1,6 @@
+ALM01 Almacen                       
+BEB01 Bebidas                       
+FRU01 Frutas y Verduras             
+LAC01 Lacteos                       
+LIM01 Limpieza                      
+PAN01 Panaderia                     
