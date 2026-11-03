@@ -1,3 +1,15 @@
+  /*=============================================================================
+    TRABAJO PRÁCTICO N° 2
+    ALGORITMOS Y ESTRUCTURAS DE DATOS
+    UTN - FRBA
+    CURSO: K1044
+
+    INTEGRANTES:
+      - Kenneth Grois               (Legajo: 260.205-2)
+      - Gaspar Kappou               (Legajo: 260.238-6)
+
+=============================================================================*/
+
 #include <fstream>
 #include <iostream>
 #include <iomanip>
