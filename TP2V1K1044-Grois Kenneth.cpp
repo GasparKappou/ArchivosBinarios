@@ -19,18 +19,24 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
- 
-#define main CnvRubros_main
-#include "CnvTxt2BinRubros.cpp"
-#undef main
-#define main CnvArticulos_main
-#include "CnvTxt2BinArticulos.cpp"
-#undef main
- 
+
 const short MAX_ARTICULOS = 30000;
 const short ANCHO_LINEA   = 65;
  
 typedef char str5[6], str7[8], str30[31];
+
+struct sRub {
+  str5  codRub;
+  str30 descrip;
+};
+
+struct sArt {
+  str7  codArt;
+  str30 descrip;
+  short stkAct;
+  str5  codRub;
+  float preUni;
+};
  
 struct tInfoRub;
 struct tInfoArt;
@@ -142,16 +148,6 @@ long GetDate(int &year, int &mes, int &dia, int &ds) {
   return year * 10000L + mes * 100 + dia;
 }
  
-void ConvertirTxt2Bin() {
-#if defined(_WIN32) || defined(__WIN32__)
-  freopen("nul", "w", stdout);
-#else
-  freopen("/dev/null", "w", stdout);
-#endif
-  CnvRubros_main();
-  CnvArticulos_main();
-}
- 
 void Abrir(ifstream &Rubros, ifstream &Articulos) {
   Rubros.open("Rubros.Dat", ios::in | ios::binary);
   Articulos.open("Articulos.Dat", ios::in | ios::binary);
@@ -239,11 +235,6 @@ void ListadoRubrosArticulos(ifstream &Rubros, ifstream &Articulos,
        << endl;
 }
  
-void Cerrar(ifstream &Rubros, ifstream &Articulos) {
-  Rubros.close();
-  Articulos.close();
-}
- 
 void AbrirListado() {
   fflush(stdout);
 #if defined(_WIN32) || defined(__WIN32__)
@@ -254,17 +245,21 @@ void AbrirListado() {
   system("xdg-open ListadoRubrosArticulos.Lst");
 #endif
 }
+
+void Cerrar(ifstream &Rubros, ifstream &Articulos) {
+  Rubros.close();
+  Articulos.close();
+  AbrirListado();
+}
  
 int main() {
   ifstream  Rubros, Articulos;
   tListaRub ListaRubros;
  
-  ConvertirTxt2Bin();
   Abrir(Rubros, Articulos);
   ArmarListaRubros(Rubros, ListaRubros);
   ArmarSubListaArticulos(Articulos, ListaRubros);
   ListadoRubrosArticulos(Rubros, Articulos, ListaRubros);
   Cerrar(Rubros, Articulos);
-  AbrirListado();
   return 0;
 }
